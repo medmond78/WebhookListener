@@ -4,6 +4,7 @@
   "description": "Generic webhook listener for Node",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "request": "^2.73.0"
   },
