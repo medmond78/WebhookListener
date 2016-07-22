@@ -7,7 +7,7 @@ var port = process.env.PORT || 3000;
 // Create a route to respond to a webhook POST request
 app.post('/listen', function(req, res) {
     console.log('Hey we got a POST request');
-	console.log(req.body);
+	console.log(req.body.name);
 
 });
 
