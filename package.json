@@ -1,0 +1,26 @@
+{
+  "name": "webhooklistener",
+  "version": "0.1.0",
+  "description": "Generic webhook listener for Node",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medmond78/WebhookListener.git"
+  },
+  "keywords": [
+    "webhook",
+    "listener",
+    "heroku"
+  ],
+  "author": "MEP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medmond78/WebhookListener/issues"
+  },
+  "homepage": "https://github.com/medmond78/WebhookListener#readme"
+}
