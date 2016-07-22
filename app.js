@@ -1,4 +1,4 @@
-var express = require('express');
+/* var express = require('express');
 var app = express();
 var request = require("request");
 
@@ -11,5 +11,26 @@ app.post('/listen', function(req, res) {
 	
 
 });
+
+
+
+
+ */
+var express = require('express'),
+    app     = express(),
+   	request = require('request');
+	
+app.configure(function(){
+  app.use(express.bodyParser());
+  app.use(app.router);
+});
+
+app.listen(port);
+
+app.post("/listen", function(req, res) {
+  console.log(req.body);
+  res.send({ status: 'SUCCESS' });
+});
+
 
 app.listen(process.env.PORT || 3000);
