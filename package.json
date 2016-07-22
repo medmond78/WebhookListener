@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Generic webhook listener for Node",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.73.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
