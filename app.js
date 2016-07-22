@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false } ));
 // Create a route to respond to a webhook POST request
 app.post('/listen', function(req, res) {
     console.log('Hey we got a POST request');
-	console.log(req);
+	console.log(req.body.issueID);
 	res.send({ status: 'SUCCESS' });
 
 });
